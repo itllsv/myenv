@@ -1,0 +1,18 @@
+!#/bin/bash
+
+sudo dnf install -y git ninja-build cmake gcc make unzip gettext curl glibc-gconv-extra
+
+git clone -b stable https://github.com/neovim/neovim.git ~/neovim
+
+cd ~/neovim
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
+
+# LazyVim
+mv ~/.config/nvim{,.bak}
+mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
