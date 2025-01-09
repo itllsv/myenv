@@ -1,5 +1,4 @@
-##!/bin/bash
-
+#!/usr/bin/env bash
 SSH_KEY_PATH="$HOME/.ssh/id_ed25519"
 
 if [ -f "$SSH_KEY_PATH" ]; then

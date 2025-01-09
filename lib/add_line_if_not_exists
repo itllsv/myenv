@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+add_line_if_not_exists() {
+  local line="$1"
+  local file="$2"
+  grep -qxF "$line" "$file" || echo "$line" | sudo tee -a "$file"
+}

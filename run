@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+DIR=$HOME/myenv
+cd "$DIR"
+
+source "$DIR/lib/detect_distro"
+source "$DIR/lib/print_line"
+source "$DIR/lib/run_scripts"
+source "$DIR/lib/stow_dotfiles"
+source "$DIR/lib/update_packages"
+
+detect_distro
+update_packages
+run_scripts
+
+print_line "Stowing dotfiles"
+stow_dotfiles
+
+print_line "Foi meu chapa =)"

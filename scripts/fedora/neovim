@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/usr/bin/env bash
 
 sudo dnf install -y git ninja-build cmake gcc make unzip gettext curl glibc-gconv-extra
 

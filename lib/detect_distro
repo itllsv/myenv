@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+detect_distro() {
+  if [[ -f /etc/os-release ]]; then
+    source /etc/os-release
+    DIST=$ID
+  else
+    echo "Dist not found."
+    exit 1
+  fi
+}
