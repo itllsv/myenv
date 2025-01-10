@@ -1,6 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+eval "$(starship init zsh)"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -11,7 +11,6 @@ alias nc="nvim ~/.config/nvim"
 alias zc="n ~/.zshrc"
 alias zs="source ~/.zshrc"
 
-alias wc="n ~/.config/wezterm/wezterm*"
 alias gc="n ~/.config/ghostty/config"
 
 alias tc="n ~/.tmux.conf"
