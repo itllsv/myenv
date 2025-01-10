@@ -1,0 +1,13 @@
+name: mc
+root: ~/Work/pmc
+
+windows:
+  - editor:
+      - nvim .
+  - dev:
+      - pn dev:portal-public
+  - test:
+      - cd apps/portal-public
+  - terminal:
+      - cd
+      - clear

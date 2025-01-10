@@ -1,0 +1,18 @@
+name: mcr
+root: ~/Work/
+
+windows:
+  - application:
+      layout: tiled
+      panes:
+        - mocks:
+            - echo 'mocks'
+        - portal-mcr:
+            - cd portal-mcr-public/
+            - clear
+        - dev-one:
+            - echo 'dev-one'
+        - dev-two:
+            - echo 'dev-two'
+  - dev: clear
+  - terminal: clear

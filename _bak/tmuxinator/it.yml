@@ -1,0 +1,6 @@
+name: it
+root: ~/Projects/
+
+windows:
+  - code: clear
+  - other: clear

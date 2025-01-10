@@ -1,0 +1,16 @@
+name: mc
+root: ~/Work/pmc
+
+windows:
+  - editor:
+      - nvim .
+  - dev:
+      - pn dev:portal-public
+  - mocks:
+      - cd ../mocks
+      - clear
+  - test:
+      - cd apps/portal-public
+  - terminal:
+      - cd
+      - clear
