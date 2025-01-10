@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-cd "$HOME/myenv/dotfiles"
+DIR="$HOME/myenv"
+cd "$DIR/dotfiles"
 
 stow_dotfiles() {
   stow -v -R -t $HOME *

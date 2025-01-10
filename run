@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-DIR=$HOME/myenv
-cd "$DIR"
+DIR="$HOME/myenv"
 
 source "$DIR/lib/detect_distro"
 source "$DIR/lib/print_line"

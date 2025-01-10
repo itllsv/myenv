@@ -2,8 +2,8 @@
 
 source "$DIR/lib/print_line"
 
-SCRIPTS_DIR="$DIR"/scripts
-cd "$MYENV_DIR"
+SCRIPTS_DIR="$DIR/scripts"
+cd "$DIR"
 
 run_scripts() {
   if [[ -d "$SCRIPTS_DIR" ]]; then
