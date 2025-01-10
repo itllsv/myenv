@@ -1,5 +1,5 @@
 # setup-env
-My automation for setting up my environment on Linux.
+Automating my environment setup on Linux
 
 ## Installation
 ```bash
