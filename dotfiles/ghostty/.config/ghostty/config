@@ -1,0 +1,11 @@
+font-size = 13.5
+
+window-decoration = false
+background-opacity = 0.98
+window-padding-balance = true
+font-family = CaskaydiaMono Nerd Font
+theme = catppuccin-macchiato
+adjust-cell-height = 25%
+mouse-hide-while-typing = true
+keybind = super+c>c=reload_config
+

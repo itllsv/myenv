@@ -12,10 +12,13 @@ alias zc="n ~/.zshrc"
 alias zs="source ~/.zshrc"
 
 alias wc="n ~/.config/wezterm/wezterm*"
+alias gc="n ~/.config/ghostty/config"
 
 alias tc="n ~/.tmux.conf"
 alias ts="tmux source-file ~/.tmux.conf"
 alias tk="tmux kill-session"
 
-alias sc="n ~/myenv/"
-alias ss="sh ~/myenv/run"
+alias sc="n ~/.config/sway/config"
+
+alias ec="n ~/myenv/"
+alias er="sh ~/myenv/run"
