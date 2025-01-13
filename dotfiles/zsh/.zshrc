@@ -21,3 +21,4 @@ alias sc="n ~/.config/sway/config"
 
 alias ec="n ~/myenv/"
 alias er="sh ~/myenv/run"
+eval "$(~/.local/bin/mise activate zsh)"

@@ -1,4 +1,4 @@
-font-size = 13.5
+font-size = 14
 
 window-decoration = false
 background-opacity = 0.96
@@ -9,4 +9,3 @@ theme = catppuccin-mocha
 adjust-cell-height = 25%
 mouse-hide-while-typing = true
 keybind = super+c>c=reload_config
-

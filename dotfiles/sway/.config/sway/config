@@ -207,6 +207,7 @@ bindsym $mod+r mode "resize"
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
+
 bar {
     position bottom
     mode hide
@@ -222,16 +223,28 @@ bar {
     }
 }
 
-exec --no-startup-id sleep 1 && ghostty
-assign [class="Ghostty"] 1
+exec --no-startup-id sleep 1 && $term
+assign [app_id="com.mitchellh.ghostty"] 1
 
 exec --no-startup-id sleep 1 && google-chrome-stable
 assign [class="Google-chrome"] 2
 
 exec --no-startup-id sleep 1 && Discord
-assign [class="Discord"] 3
+assign [class="discord"] 3
 
-exec --no-startup-id sleep 1 && forticlient
-assign [class="Forticlient"] 6
+exec --no-startup-id sleep 1 && chromium-browser
+assign [class="Chromium-browser"] 4
+
+exec --no-startup-id sleep 1 && flatpak run com.mastermindzh.tidal-hifi
+assign [app_id="com.mastermindzh.tidal-hifi"] 5
+
+exec --no-startup-id sleep 1 && forticlient gui
+assign [class="FortiClient"] 6
+
+exec --no-startup-id sleep 1 && pavucontrol
+assign [app_id="org.pulseaudio.pavucontrol"] 7
+
+exec --no-startup-id sleep 1 && nautilus
+assign [app_id="org.gnome.Nautilus"] 7
 
 include /etc/sway/config.d/*
