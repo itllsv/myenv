@@ -21,4 +21,20 @@ alias sc="n ~/.config/sway/config"
 
 alias ec="n ~/myenv/"
 alias er="sh ~/myenv/run"
-eval "$(~/.local/bin/mise activate zsh)"
+
+alias int="cd ~/Work/mfe-interactive-invoice/"
+alias mocks="cd ~/Work/mocks/"
+alias pmc="cd ~/Work/portal-minha-claro/"
+alias portal="cd ~/Work/portal-mcr-public/"
+
+alias pn="pnpm"
+
+alias v="vm3s"
+
+# pnpm
+export PNPM_HOME="/home/itllsv/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

@@ -247,4 +247,6 @@ assign [app_id="org.pulseaudio.pavucontrol"] 7
 exec --no-startup-id sleep 1 && nautilus
 assign [app_id="org.gnome.Nautilus"] 7
 
+bindsym Ctrl+Shift+4 exec grimshot --notify savecopy area
+
 include /etc/sway/config.d/*

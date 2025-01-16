@@ -14,7 +14,6 @@ return {
         },
         always_show_by_pattern = { -- uses glob style patterns
           ".env*",
-          ".config*",
         },
       },
     }
