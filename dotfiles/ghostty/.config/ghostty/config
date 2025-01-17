@@ -1,7 +1,7 @@
 font-size = 14
 
 window-decoration = false
-background-opacity = 0.98
+background-opacity = 0.95
 window-padding-x = 8, 5
 window-padding-y = 4
 font-family = CaskaydiaMono Nerd Font
