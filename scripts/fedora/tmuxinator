@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sudo dnf copr enable fcsm/tmuxinator -y
+sudo dnf install tmuxinator -y

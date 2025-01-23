@@ -1,16 +1,10 @@
 name: mc
-root: ~/Work/pmc
+root: ~/Work/portal-minha-claro/
 
 windows:
-  - editor:
-      - nvim .
+  - nvim:
+      - n apps/portal-public/src/app/fatura-facil/
+  - terminal:
+      - clear
   - dev:
       - pn dev:portal-public
-  - mocks:
-      - cd ../mocks
-      - clear
-  - test:
-      - cd apps/portal-public
-  - terminal:
-      - cd
-      - clear
