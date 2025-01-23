@@ -15,7 +15,7 @@ set $menu ulauncher
 for_window [class="^.*"] border pixel 0
 
 ### Output configuration
-output * bg /home/itllsv/Pictures/bg.jpg fill
+output * bg /home/itllsv/Pictures/bg2* fill
 output HDMI-A-1 resolution 1920x1080 position 1920,0
 
 ### Idle configuration
