@@ -5,7 +5,6 @@ windows:
   - editor:
       - clear
   - terminal:
-      - cd
       - clear
   - dev:
       - clear
