@@ -18,6 +18,7 @@ alias ts="tmux source-file ~/.tmux.conf"
 alias tk="tmux kill-session"
 
 alias tts="tmuxinator start"
+alias ttc="n ~/.config/tmuxinator/"
 
 alias sc="n ~/.config/sway/config"
 
